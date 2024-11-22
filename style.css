@@ -1,0 +1,10 @@
+@import url('_css/_grid.css');
+@import url('_css/_reset.css');
+
+
+.maingrid > div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+}
