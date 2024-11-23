@@ -25,7 +25,7 @@ footer
 
 
 
-.article-links {
+.article-hyperlinks {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -58,7 +58,7 @@ footer
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    text-align: center;
+    
     }
     
     .foot1 { grid-area: 1 / 1 / 2 / 2; } 
@@ -73,7 +73,6 @@ footer
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    text-align: center;
     }
     
     .nav1 { grid-area: 1 / 1 / 2 / 2; } 

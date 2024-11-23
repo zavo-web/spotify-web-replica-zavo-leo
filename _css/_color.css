@@ -1,5 +1,10 @@
 :root {
-    --main-big-color: #000;
+    --main-big-colour: #1F1F1F; 
+    --primary-colour: #000000; 
+    --secondary-colour: #3BE477;
+    --text-colour: #FFFFFF;
+    --secondary-text-colour: #B3B3B3;
+    --hover-colour: #2A2A2A; 
 }
 
 
