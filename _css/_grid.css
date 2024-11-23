@@ -67,7 +67,7 @@ footer
 
 
 
-.navgrid {
+.navgrid {  /* grid-area: row-start / column-start / row-end / column-end; */
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr;

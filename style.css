@@ -2,6 +2,7 @@
 @import url('_css/_reset.css');
 @import url('_css/_nav.css');
 @import url('_css/_color.css');
+@import url('_css/_flex.css');
 
 .maingrid > article, footer  {
     border-radius: 5px;
@@ -28,3 +29,9 @@
     src: url('fonts/GothamLight.ttf') format('opentype');
   }
 
+
+
+
+
+
+  
