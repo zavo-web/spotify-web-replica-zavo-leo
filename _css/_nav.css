@@ -1,27 +1,55 @@
-
 .navbar {
-    background-color: var(--primary-colour);
+  background-color: var(--primary-colour);
 }
-
 
 .circle {
-    width: 40px;
-    height: 40px;
-    background: var(--secondary-colour); 
-    margin: 8px
+  width: 40px;
+  height: 40px;
+  background: var(--main-big-colour);
+  margin: 8px;
 }
 .circlebase {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-
-.inputborder {
-    border: 10px solid blue;
-    border-radius: 24px;
+.inputfield {
+  border: var(--main-big-colour);
+  border-radius: 500px;
+  padding: 12px;
+  width: 474px;
+  padding-left: 64px;
+  background-color: var(--main-big-colour);
 }
-
 
 .line {
-    border-left: var(--secondary-text-colour) 1px;
-    padding: 0px 4px 0px 12px;
+  border-left: var(--secondary-text-colour) 1px;
+  padding: 0px 4px 0px 12px;
+}
+
+.logo-icon {
+  fill: white;
+  width: 32px;
+  height: 32px;
+}
+
+.home-icon,
+.search-icon,
+.browse-icon {
+  fill: white;
+  width: 24px;
+  height: 24px;
+}
+
+.search {
+  position: relative;
+  background-color: var(--main-big-colour);
+}
+
+.search-icon-wrapper {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
 }
