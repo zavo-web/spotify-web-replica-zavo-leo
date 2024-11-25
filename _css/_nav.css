@@ -19,3 +19,9 @@
     border: 10px solid blue;
     border-radius: 24px;
 }
+
+
+.line {
+    border-left: var(--secondary-text-colour) 1px;
+    padding: 0px 4px 0px 12px;
+}

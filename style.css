@@ -3,6 +3,7 @@
 @import url('_css/_nav.css');
 @import url('_css/_color.css');
 @import url('_css/_flex.css');
+@import url('_css/_fonts.css');
 
 .maingrid > article, footer  {
     border-radius: 5px;
@@ -13,21 +14,7 @@
 
 
 
-/* FONTS */  
-@font-face {
-    font-family: 'Gotham-Bold';  /* bold main title font */
-    src: url('fonts/Gotham-Bold.otf') format('opentype');
-  }
 
-@font-face {
-    font-family: 'GothamBook';      /* normal text font */
-    src: url('fonts/GothamBook.ttf') format('opentype');
-  }
-
-@font-face {
-    font-family: 'GothamLight';     /* normal secondary text font */ 
-    src: url('fonts/GothamLight.ttf') format('opentype');
-  }
 
 
 
