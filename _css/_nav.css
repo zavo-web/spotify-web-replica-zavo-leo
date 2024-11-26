@@ -1,0 +1,84 @@
+.navbar {
+  background-color: var(--primary-colour);
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background: var(--main-big-colour);
+  margin: 8px;
+}
+.circlebase {
+  border-radius: 50%;
+}
+
+.inputfield {
+  border: var(--main-big-colour);
+  border-radius: 500px;
+  padding: 12px;
+  width: 474px;
+  padding-left: 64px;
+  background-color: var(--main-big-colour);
+}
+
+.logo-icon {
+  fill: white;
+  width: 32px;
+  height: 32px;
+}
+
+.home-icon,
+.search-icon,
+.browse-icon {
+  fill: white;
+  width: 24px;
+  height: 24px;
+}
+
+.search-form {
+  position: relative;
+  background-color: var(--main-big-colour);
+  border-radius: 500px;
+
+}
+
+.search-icon-wrapper {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.browse-icon-wrapper {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+
+.sign_up_button {
+  color: white;
+  padding: 8px;
+  padding-right: 32px;
+
+}
+
+.log_in_button {
+  border: 1px solid white;
+  border-radius: 500px;
+  color: var(--primary-colour);
+  background-color: white;
+  padding: 32px;
+  padding-top: 8px;
+  padding-top: 8px;
+
+}
+
+.button_wrapper {
+
+}
