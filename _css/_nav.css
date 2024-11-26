@@ -21,11 +21,6 @@
   background-color: var(--main-big-colour);
 }
 
-.line {
-  border-left: var(--secondary-text-colour) 1px;
-  padding: 0px 4px 0px 12px;
-}
-
 .logo-icon {
   fill: white;
   width: 32px;
@@ -40,9 +35,11 @@
   height: 24px;
 }
 
-.search {
+.search-form {
   position: relative;
   background-color: var(--main-big-colour);
+  border-radius: 500px;
+
 }
 
 .search-icon-wrapper {
@@ -52,4 +49,36 @@
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
+}
+
+.browse-icon-wrapper {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+
+.sign_up_button {
+  color: white;
+  padding: 8px;
+  padding-right: 32px;
+
+}
+
+.log_in_button {
+  border: 1px solid white;
+  border-radius: 500px;
+  color: var(--primary-colour);
+  background-color: white;
+  padding: 32px;
+  padding-top: 8px;
+  padding-top: 8px;
+
+}
+
+.button_wrapper {
+
 }
