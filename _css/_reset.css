@@ -19,3 +19,14 @@ textarea::placeholder {
   font-size: inherit;
   font-family: inherit;
 }
+
+button {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}

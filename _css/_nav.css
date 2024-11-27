@@ -41,7 +41,6 @@
   position: relative;
   background-color: var(--main-big-colour);
   border-radius: 500px;
-
 }
 
 .search-icon-wrapper {
@@ -64,7 +63,6 @@
   padding-left: 12px;
 }
 
-
 .sign_up_button {
   color: var(--secondary-text-colour);
   padding: 8px;
@@ -82,12 +80,9 @@
   padding-left: 32px;
 }
 
-
-
 .spotify_logo {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 24px;
 }
-

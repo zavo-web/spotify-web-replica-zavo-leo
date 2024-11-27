@@ -8,5 +8,7 @@ mijn "sign_up_button" en "log_in_button" in nav.css hebben text dat onder elkaar
 te doen. moet ik de kader groter maker? moet ik een bepaalde regel toepassen op mijn text?  
 
 
+ik krijg geen svg voor mijn spotify favicon of uberhaupt een jpg 
+
 
 
