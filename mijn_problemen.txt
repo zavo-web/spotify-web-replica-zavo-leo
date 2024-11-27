@@ -1,0 +1,12 @@
+
+voor een of andere reden is de kleur van mijn left-border (dat het lijntje in de input_field voorstelt) op browse-icon-wrapper nogsteeds wit
+ookal geef ik die de variable: solid 1px var(--secondary-text-colour) mee. als ik de kleur red toepas, werkt hij gewoon.
+
+
+
+mijn "sign_up_button" en "log_in_button" in nav.css hebben text dat onder elkaar gaat eenmaal er te weinig plaats is. ik weet niet goed wat
+te doen. moet ik de kader groter maker? moet ik een bepaalde regel toepassen op mijn text?  
+
+
+
+

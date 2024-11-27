@@ -1,5 +1,6 @@
 .navbar {
   background-color: var(--primary-colour);
+  position: relative;
 }
 
 .circle {
@@ -19,6 +20,7 @@
   width: 474px;
   padding-left: 64px;
   background-color: var(--main-big-colour);
+  color: var(--secondary-text-colour);
 }
 
 .logo-icon {
@@ -30,7 +32,7 @@
 .home-icon,
 .search-icon,
 .browse-icon {
-  fill: white;
+  fill: var(--secondary-text-colour);
   width: 24px;
   height: 24px;
 }
@@ -53,19 +55,20 @@
 
 .browse-icon-wrapper {
   position: absolute;
-  right: 16px;
+  right: 28px;
   top: 50%;
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
+  border-left: solid 1px var(--secondary-text-colour);
+  padding-left: 12px;
 }
 
 
 .sign_up_button {
-  color: white;
+  color: var(--secondary-text-colour);
   padding: 8px;
   padding-right: 32px;
-
 }
 
 .log_in_button {
@@ -73,12 +76,18 @@
   border-radius: 500px;
   color: var(--primary-colour);
   background-color: white;
-  padding: 32px;
   padding-top: 8px;
-  padding-top: 8px;
-
+  padding-bottom: 8px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
-.button_wrapper {
 
+
+.spotify_logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 24px;
 }
+

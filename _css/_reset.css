@@ -10,3 +10,12 @@ ol {
   margin: 0;
   padding: 0;
 }
+
+input::placeholder,
+textarea::placeholder {
+  color: inherit;
+  opacity: 1; /* Make placeholder fully visible */
+  font-style: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
