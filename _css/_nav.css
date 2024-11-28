@@ -67,6 +67,7 @@
   color: var(--secondary-text-colour);
   padding: 8px;
   padding-right: 32px;
+  white-space: nowrap;
 }
 
 .log_in_button {
@@ -78,6 +79,7 @@
   padding-bottom: 8px;
   padding-right: 32px;
   padding-left: 32px;
+  white-space: nowrap;
 }
 
 .spotify_logo {

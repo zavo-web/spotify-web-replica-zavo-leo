@@ -1,0 +1,29 @@
+
+footer {
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    padding-left: 15px;
+    padding-right: 24px;
+    padding-top: 11px;
+    padding-bottom: 7px;
+}
+
+.foot1 {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-flow: column;
+    color:white;
+}
+
+
+
+.footer-text {
+    font-size: 18px;
+}
+
+.footer-button {
+    padding: 16px 32px;
+    background-color: white;
+    border-radius: 500px;
+    font-size: 17px;
+}

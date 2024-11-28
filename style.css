@@ -5,10 +5,9 @@
 @import url("_css/_flex.css");
 @import url("_css/_fonts.css");
 @import url("_css/_article-sidebar.css");
+@import url("_css/_footer.css");
 
-.maingrid > .article-hyperlinks,
-.article-albums,
-footer {
+.maingrid > .article-hyperlinks {
   border-radius: 5px;
   padding: 10px;
   background-color: rgb(207, 232, 220);
@@ -27,7 +26,7 @@ footer {
   align-items: baseline;
 }
 
-.begin_Ycenter {
+.begin_Ycenter {     /* geen idee waarom ik dit maakte, lijkt overbodig */
   display: flex;
   justify-content: baseline;
   align-items: center;
