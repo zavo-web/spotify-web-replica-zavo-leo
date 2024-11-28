@@ -14,7 +14,7 @@ ol {
 input::placeholder,
 textarea::placeholder {
   color: inherit;
-  opacity: 1; /* Make placeholder fully visible */
+  opacity: 1;
   font-style: inherit;
   font-size: inherit;
   font-family: inherit;

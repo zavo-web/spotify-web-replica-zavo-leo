@@ -31,3 +31,33 @@
 .sidebar1_text {
   padding-left: 12px;
 }
+
+
+.sidebar-card {
+  border: 10px solid var(--side-colour);
+  border-radius: 8px;
+  background-color: var(--side-colour);
+  padding-left: 8px;
+}
+
+
+.card-title {
+  color: white;
+  padding: 8px 0px;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-button {
+  color: black;
+  border: 10px solid white;
+  border-radius: 600px;
+  background-color: white;
+}
+
+.div-button {
+  padding-top: 16px;
+  padding-bottom: 4px;
+}
