@@ -4,10 +4,6 @@ ookal geef ik die de variable: solid 1px var(--secondary-text-colour) mee. als i
 
 
 
-mijn "sign_up_button" en "log_in_button" in nav.css hebben text dat onder elkaar gaat eenmaal er te weinig plaats is. ik weet niet goed wat
-te doen. moet ik de kader groter maker? moet ik een bepaalde regel toepassen op mijn text?  
-
-
 ik krijg geen svg voor mijn spotify favicon of uberhaupt een jpg 
 
 

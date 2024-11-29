@@ -1,11 +1,11 @@
-@import url("_css/_grid.css");
-@import url("_css/_reset.css");
-@import url("_css/_nav.css");
-@import url("_css/_color.css");
-@import url("_css/_flex.css");
-@import url("_css/_fonts.css");
-@import url("_css/_article-sidebar.css");
-@import url("_css/_footer.css");
+@import url("css/_grid.css");
+@import url("css/_reset.css");
+@import url("css/_nav.css");
+@import url("css/_color.css");
+@import url("css/_fonts.css");
+@import url("css/_article-sidebar.css");
+@import url("css/_footer.css");
+@import url("css/_article-albums.css");
 
 .maingrid > .article-hyperlinks {
   border-radius: 5px;
