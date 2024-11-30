@@ -3,12 +3,11 @@
 .card-items-container {
     border: 1px solid white;
     display: flex;
-    flex-direction: row;
+    overflow-wrap: break-word;
 }
 
 .card-music {
     padding: 16px;
-    width:
 }
 
 .card-music:hover {
@@ -22,9 +21,10 @@
 }
 
 .card-img {
-    width: auto;
-    height: 180px;
+    height: auto;
     border-radius: 50%;
+    max-width: 100%;
+    min-width: 137px;
 }
 
 .card-img-wrapper {
