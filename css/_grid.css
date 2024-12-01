@@ -31,7 +31,7 @@
 .article-albums {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -41,9 +41,6 @@
     .album3 { grid-area: 3 / 1 / 4 / 2; }
     .album4 { grid-area: 4 / 1 / 5 / 2; }
     .album5 { grid-area: 5 / 1 / 6 / 2; }
-    .album6 { grid-area: 6 / 1 / 7 / 2; }
-    .album7 { grid-area: 7 / 1 / 8 / 2; }
-    .album8 { grid-area: 8 / 1 / 9 / 2; }
 
 .footergrid {
     display: grid;
