@@ -21,13 +21,6 @@
   align-items: baseline;
 }
 
-.begin_Ycenter {
-  /* geen idee waarom ik dit maakte, lijkt overbodig */
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-}
-
 body {
   background-color: black;
 }
@@ -38,15 +31,14 @@ body {
   border-radius: 8px;
 }
 
-
 .enlarge-item:hover {
   transform: scale(1.05);
 }
 
 .clickable:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 li {
-  cursor: pointer
+  cursor: pointer;
 }

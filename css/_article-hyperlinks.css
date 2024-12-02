@@ -1,66 +1,64 @@
-
 .hyper-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .article-hyperlinks {
-    padding: 32px;
+  padding: 32px;
 }
 
 .hyper-text {
-    font-size: 20px;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  font-size: 20px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.hyper-text-item:hover { 
-    text-decoration: underline;
+.hyper-text-item:hover {
+  text-decoration: underline;
 }
 
 .hyper-title {
-    color: white;
+  color: white;
 }
 
 .socials {
-    fill: white;
-    width: 16px;
-    height: 16px;
+  fill: white;
+  width: 16px;
+  height: 16px;
 }
 
 .socials:hover .social-button {
-    background-color: var(--secondary-text-colour)
+  background-color: var(--secondary-text-colour);
 }
 
 .socials-container {
-    display: flex;
-    white-space: nowrap;
+  display: flex;
+  white-space: nowrap;
 }
 
 .social-button {
-    border-radius: 50%;
-    background-color: var(--side-colour);
-    padding: 12px;
-    margin: 0px 8px;
+  border-radius: 50%;
+  background-color: var(--side-colour);
+  padding: 12px;
+  margin: 0px 8px;
 }
 
 .social-button:hover {
-    background-color: var(--secondary-text-colour)
+  background-color: var(--secondary-text-colour);
 }
 
-.trademark { 
-    display: flex;
-    padding-top: 48px
+.trademark {
+  display: flex;
+  padding-top: 48px;
 }
 
 .album6 {
-    padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .album7 {
-    border-top: 1px solid var(--side-colour)
+  border-top: 1px solid var(--side-colour);
 }
-

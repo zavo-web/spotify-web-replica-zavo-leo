@@ -42,13 +42,10 @@
   color: white;
 }
 
-
-
 .sidebar1_text {
   padding-left: 12px;
   font-size: 20px;
 }
-
 
 .sidebar-card {
   border: 10px solid var(--side-colour);
@@ -56,7 +53,6 @@
   background-color: var(--side-colour);
   padding-left: 8px;
 }
-
 
 .sidebar-card-title {
   color: white;
@@ -96,7 +92,6 @@
   white-space: nowrap;
 }
 
-
 .sidebar3 {
   padding: 24px;
 }
@@ -112,13 +107,13 @@
 }
 
 .langauge-button {
-  color:white;
+  color: white;
   border: 1px solid var(--secondary-text-colour);
   border-radius: 600px;
   padding: 8px 12px;
 }
 
-.langauge-button { 
+.langauge-button {
   border: 1px solid white;
 }
 
