@@ -14,11 +14,17 @@
   position: relative;
 }
 
-.plus-icon-div {
+.plus-icon-button {
   position: absolute;
-  right: 24px;
+  right: 16px;
   top: 50%;
   transform: translateY(-50%);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.plus-icon-button:hover {
+  background-color: var(--hover-colour);
 }
 
 .library-button {
@@ -28,8 +34,19 @@
   transform: translateY(-50%);
 }
 
+.library-button:hover .library-icon {
+  fill: white;
+}
+
+.library-button:hover .sidebar1_text {
+  color: white;
+}
+
+
+
 .sidebar1_text {
   padding-left: 12px;
+  font-size: 20px;
 }
 
 
@@ -41,13 +58,13 @@
 }
 
 
-.card-title {
+.sidebar-card-title {
   color: white;
   padding: 8px 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.card-text {
+.sidebar-card-text {
   color: white;
 }
 
@@ -71,7 +88,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  font-size: 12px;
+  font-size: 14px;
   gap: 16px;
 }
 
@@ -87,7 +104,11 @@
 .cookies {
   padding-top: 12px;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
+}
+
+.cookies:hover {
+  text-decoration: underline;
 }
 
 .langauge-button {
@@ -95,6 +116,10 @@
   border: 1px solid var(--secondary-text-colour);
   border-radius: 600px;
   padding: 8px 12px;
+}
+
+.langauge-button { 
+  border: 1px solid white;
 }
 
 .langauge-icon {

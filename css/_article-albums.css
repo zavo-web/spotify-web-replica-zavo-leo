@@ -89,3 +89,9 @@
 .article-albums {
     padding: 24px;
 }
+
+
+.scrollable-section {
+    overflow: auto;
+    max-height: 1fr;
+}

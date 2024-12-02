@@ -17,6 +17,10 @@
     gap: 10px;
 }
 
+.hyper-text-item:hover { 
+    text-decoration: underline;
+}
+
 .hyper-title {
     color: white;
 }
@@ -25,6 +29,10 @@
     fill: white;
     width: 16px;
     height: 16px;
+}
+
+.socials:hover .social-button {
+    background-color: var(--secondary-text-colour)
 }
 
 .socials-container {
@@ -39,15 +47,20 @@
     margin: 0px 8px;
 }
 
+.social-button:hover {
+    background-color: var(--secondary-text-colour)
+}
+
 .trademark { 
     display: flex;
     padding-top: 48px
 }
 
-.hyper2 {
+.album6 {
+    padding-bottom: 24px;
+}
+
+.album7 {
     border-top: 1px solid var(--side-colour)
 }
 
-.hyper1 {
-    padding-bottom: 24px;
-}

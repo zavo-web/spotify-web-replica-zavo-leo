@@ -1,11 +1,10 @@
 .navbar {
-  background-color: var(--primary-colour);
-  position: relative;
+  background-color: black;
 }
 
 .circle {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: var(--main-big-colour);
   margin: 8px;
 }
@@ -21,6 +20,12 @@
   padding-left: 64px;
   background-color: var(--main-big-colour);
   color: var(--secondary-text-colour);
+  font-size: 20px;
+}
+
+
+.search-form:hover .inputfield {
+  background-color: var(--hover-colour);
 }
 
 .logo-icon {
@@ -35,6 +40,10 @@
   fill: var(--secondary-text-colour);
   width: 24px;
   height: 24px;
+}
+
+.browse-icon:hover,.search-icon:hover {
+  fill: white;
 }
 
 .search-form {
@@ -70,10 +79,15 @@
   white-space: nowrap;
 }
 
+.sign_up_button:hover {
+  color: white;
+
+}
+
 .log_in_button {
   border: 1px solid white;
   border-radius: 500px;
-  color: var(--primary-colour);
+  color: black;
   background-color: white;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -82,10 +96,4 @@
   white-space: nowrap;
 }
 
-.spotify_logo {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 24px;
-}
 

@@ -29,11 +29,24 @@
 }
 
 body {
-  background-color: var(--primary-colour);
+  background-color: black;
 }
 
 .articles {
   background-color: var(--main-big-colour);
   color: var(--secondary-text-colour);
   border-radius: 8px;
+}
+
+
+.enlarge-item:hover {
+  transform: scale(1.05);
+}
+
+.clickable:hover {
+  cursor: pointer
+}
+
+li {
+  cursor: pointer
 }
