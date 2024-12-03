@@ -1,5 +1,4 @@
 .card-items-container {
-  border: 1px solid white;
   display: flex;
   overflow-wrap: break-word;
 }
