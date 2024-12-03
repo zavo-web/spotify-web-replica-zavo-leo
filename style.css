@@ -1,0 +1,43 @@
+@import url("css/_grid.css");
+@import url("css/_reset.css");
+@import url("css/_nav.css");
+@import url("css/_color.css");
+@import url("css/_fonts.css");
+@import url("css/_article-sidebar.css");
+@import url("css/_footer.css");
+@import url("css/_article-albums.css");
+@import url("css/_article-hyperlinks.css");
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.begin {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+body {
+  background-color: black;
+}
+
+.articles {
+  background-color: var(--main-big-colour);
+  color: var(--secondary-text-colour);
+  border-radius: 8px;
+}
+
+.enlarge-item:hover {
+  transform: scale(1.05);
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}

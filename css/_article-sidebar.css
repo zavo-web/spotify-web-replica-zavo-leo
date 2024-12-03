@@ -1,0 +1,129 @@
+.library-icon {
+  height: 24px;
+  width: 24px;
+  fill: var(--secondary-text-colour);
+}
+
+.plus-icon {
+  height: 16px;
+  width: 16px;
+  fill: var(--secondary-text-colour);
+}
+
+.posrel {
+  position: relative;
+}
+
+.plus-icon-button {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.plus-icon-button:hover {
+  background-color: var(--hover-colour);
+}
+
+.library-button {
+  position: absolute;
+  left: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.library-button:hover .library-icon {
+  fill: white;
+}
+
+.library-button:hover .sidebar1_text {
+  color: white;
+}
+
+.sidebar1_text {
+  padding-left: 12px;
+  font-size: 20px;
+}
+
+.sidebar-card {
+  border: 10px solid var(--side-colour);
+  border-radius: 8px;
+  background-color: var(--side-colour);
+  padding-left: 8px;
+}
+
+.sidebar-card-title {
+  color: white;
+  padding: 8px 0px;
+  font-size: 20px;
+}
+
+.sidebar-card-text {
+  color: white;
+}
+
+.card-button {
+  color: black;
+  border: 10px solid white;
+  border-radius: 600px;
+  background-color: white;
+}
+
+.cards {
+  padding: 0px 8px;
+}
+
+.div-button {
+  padding-top: 16px;
+  padding-bottom: 4px;
+}
+
+.list-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 14px;
+  gap: 16px;
+}
+
+.list-text li {
+  white-space: nowrap;
+}
+
+.sidebar3 {
+  padding: 24px;
+}
+
+.cookies {
+  padding-top: 12px;
+  color: white;
+  font-size: 14px;
+}
+
+.cookies:hover {
+  text-decoration: underline;
+}
+
+.langauge-button {
+  color: white;
+  border: 1px solid var(--secondary-text-colour);
+  border-radius: 600px;
+  padding: 8px 12px;
+}
+
+.langauge-button {
+  border: 1px solid white;
+}
+
+.langauge-icon {
+  width: 16px;
+  height: 16px;
+  fill: white;
+  margin-right: 8px;
+}
+
+.sidebar4 {
+  padding-left: 24px;
+}

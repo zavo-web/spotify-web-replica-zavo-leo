@@ -1,0 +1,63 @@
+/* 
+font-bold
+font-bolder
+font-extrabold
+font-regular
+font-normal
+
+*/
+
+@font-face {
+  font-family: "spotify-Bolder";
+  src: url("../fonts/SpotifyMixUI-Bold-4264b799009b1db5c491778b1bc8e5b7.woff2")
+    format("woff2");
+}
+
+.font-bolder {
+  font-family: spotify-Bolder;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("../fonts/SpotifyMixUI-Regular-cc3b1de388efa4cbca6c75cebc24585e.woff2")
+    format("woff2");
+}
+
+.font-regular {
+  font-family: Regular;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "spotify-Bold";
+  src: url("../fonts/SpotifyMixUITitle-Bold-37290f1de77f297fcc26d71e9afcf43f.woff2")
+    format("woff2");
+}
+
+.font-bold {
+  font-family: spotify-Bold;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Extrabold";
+  src: url("../fonts/SpotifyMixUITitle-Extrabold-ba6c73cd7f82c81e49cf2204017803ed.woff2")
+    format("woff2");
+}
+
+.font-extrabold {
+  font-family: Extrabold;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("../fonts/SpotifyMixUITitleVariable-8769ccfde3379b7ebcadd9529b49d0cc.woff2")
+    format("woff2");
+}
+
+.font-normal {
+  font-family: Normal;
+  font-weight: 100;
+}

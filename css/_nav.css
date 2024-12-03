@@ -1,0 +1,96 @@
+.navbar {
+  background-color: black;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: var(--main-big-colour);
+  margin: 8px;
+}
+.circlebase {
+  border-radius: 50%;
+}
+
+.inputfield {
+  border: var(--main-big-colour);
+  border-radius: 500px;
+  padding: 12px;
+  width: 474px;
+  padding-left: 64px;
+  background-color: var(--main-big-colour);
+  color: var(--secondary-text-colour);
+  font-size: 20px;
+}
+
+.search-form:hover .inputfield {
+  background-color: var(--hover-colour);
+}
+
+.logo-icon {
+  fill: white;
+  width: 32px;
+  height: 32px;
+}
+
+.home-icon,
+.search-icon,
+.browse-icon {
+  fill: var(--secondary-text-colour);
+  width: 24px;
+  height: 24px;
+}
+
+.browse-icon:hover,
+.search-icon:hover {
+  fill: white;
+}
+
+.search-form {
+  position: relative;
+  background-color: var(--main-big-colour);
+  border-radius: 500px;
+}
+
+.search-icon-wrapper {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.browse-icon-wrapper {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-left: solid 1px var(--secondary-text-colour);
+  padding-left: 12px;
+}
+
+.sign_up_button {
+  color: var(--secondary-text-colour);
+  padding: 8px;
+  padding-right: 32px;
+  white-space: nowrap;
+}
+
+.sign_up_button:hover {
+  color: white;
+}
+
+.log_in_button {
+  border: 1px solid white;
+  border-radius: 500px;
+  color: black;
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 32px;
+  padding-left: 32px;
+  white-space: nowrap;
+}

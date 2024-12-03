@@ -1,0 +1,87 @@
+.card-items-container {
+  display: flex;
+  overflow-wrap: break-word;
+}
+
+.card-music {
+  padding: 16px;
+}
+
+.card-music:hover {
+  cursor: pointer;
+}
+
+.card-music:hover {
+  border-radius: 8px;
+  background: linear-gradient(to top, #1f1f1f, rgba(0, 0, 0, 0));
+}
+
+.card-img {
+  height: auto;
+  border-radius: 50%;
+  max-width: 100%;
+  min-width: 137px;
+}
+
+.card-img-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-name {
+  color: white;
+}
+
+.card-text {
+  color: var(--secondary-text-colour);
+}
+
+.card-title {
+  color: white;
+  font-size: 26px;
+}
+
+.play-icon {
+  height: 25px;
+  width: 25px;
+  fill: none;
+}
+
+.card-music:hover .play-icon {
+  fill: black;
+  cursor: pointer;
+}
+
+.card-play-button {
+  border-radius: 50%;
+  position: absolute;
+  left: 112px;
+  top: 70%;
+  padding: 12px;
+}
+
+.card-music:hover .card-play-button {
+  background-color: var(--secondary-colour);
+  cursor: pointer;
+}
+
+.pos-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+}
+
+.show-all-text {
+  margin-left: auto;
+}
+
+.article-albums {
+  padding: 24px;
+}
+
+.scrollable-section {
+  overflow: auto;
+  max-height: 1fr;
+}
